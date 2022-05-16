@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_global_navigations",
+  "info": {
+    "displayName": "navigation",
+    "icon": "map",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "href": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}
