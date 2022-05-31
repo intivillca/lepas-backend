@@ -17,10 +17,19 @@
       "repeatable": true,
       "component": "global.navigation"
     },
-    "footerlinks": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "socialmedia": {
+      "displayName": "socialmedia",
       "type": "component",
       "repeatable": true,
-      "component": "footer.link"
+      "component": "global.socialmedia"
     }
   }
 }

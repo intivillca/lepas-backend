@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_global_socialmedias",
+  "info": {
+    "displayName": "socialmedia",
+    "icon": "grin"
+  },
+  "options": {},
+  "attributes": {
+    "href": {
+      "type": "string"
+    },
+    "site": {
+      "type": "enumeration",
+      "enum": [
+        "facebook",
+        "instagram",
+        "twitter"
+      ]
+    }
+  }
+}

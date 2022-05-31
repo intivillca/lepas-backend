@@ -2,15 +2,12 @@
   "collectionName": "components_global_footers",
   "info": {
     "displayName": "footer",
-    "icon": "caret-square-down",
-    "description": ""
+    "icon": "arrow-down"
   },
   "options": {},
   "attributes": {
-    "links": {
-      "type": "component",
-      "repeatable": true,
-      "component": "footer.link"
+    "footertext": {
+      "type": "string"
     }
   }
 }

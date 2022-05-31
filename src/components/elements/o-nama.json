@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_elements_o_namas",
+  "info": {
+    "displayName": "O-nama",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "naslov": {
+      "type": "string"
+    },
+    "tekst": {
+      "type": "text"
+    },
+    "slika": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

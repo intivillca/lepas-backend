@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "informacijes",
+  "info": {
+    "singularName": "informacije",
+    "pluralName": "informacijes",
+    "displayName": "Informacije",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "zaglavlje": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.zaglavlje-stranice"
+    },
+    "onama": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.o-nama"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.faq"
+    },
+    "faqPozadina": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "zaglavljeONama": {
+      "displayName": "ZaglavljeSekcije",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.zaglavlje-sekcije"
+    },
+    "statistika": {
+      "displayName": "Statistika",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.statistika"
+    },
+    "zaglavljeStatistika": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.zaglavlje-sekcije"
+    },
+    "zaglavljeFAQ": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.zaglavlje-sekcije"
+    }
+  }
+}

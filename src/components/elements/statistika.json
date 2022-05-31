@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elements_statistikas",
+  "info": {
+    "displayName": "Statistika",
+    "icon": "project-diagram"
+  },
+  "options": {},
+  "attributes": {
+    "broj": {
+      "type": "integer"
+    },
+    "tekst": {
+      "type": "string"
+    }
+  }
+}

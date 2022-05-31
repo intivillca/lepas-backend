@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_elements_akcijes",
+  "info": {
+    "displayName": "akcije",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "naslov": {
+      "type": "string"
+    },
+    "opis": {
+      "type": "text"
+    },
+    "slika": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

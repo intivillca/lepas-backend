@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_zaglavlje_sekcijes",
+  "info": {
+    "displayName": "ZaglavljeSekcije",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "naslov": {
+      "type": "string"
+    },
+    "tekst": {
+      "type": "text"
+    }
+  }
+}

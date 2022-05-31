@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_elements_mackes",
+  "info": {
+    "displayName": "macke",
+    "icon": "cat",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "macka": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::macka.macka"
+    },
+    "naslov": {
+      "type": "string"
+    },
+    "tekst": {
+      "type": "text",
+      "maxLength": 250
+    }
+  }
+}

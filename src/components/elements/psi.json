@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_elements_psis",
+  "info": {
+    "displayName": "Psi",
+    "icon": "dog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::pas.pas"
+    },
+    "naslov": {
+      "type": "string"
+    },
+    "tekst": {
+      "type": "text",
+      "maxLength": 250
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_elements_donacijes",
+  "info": {
+    "displayName": "donacije",
+    "icon": "donate"
+  },
+  "options": {},
+  "attributes": {
+    "naslov": {
+      "type": "string"
+    },
+    "tekst": {
+      "type": "string"
+    },
+    "slika": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

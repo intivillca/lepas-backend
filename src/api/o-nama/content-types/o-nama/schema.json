@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "o_namas",
+  "info": {
+    "singularName": "o-nama",
+    "pluralName": "o-namas",
+    "displayName": "Naslovna",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "psi": {
+      "displayName": "Psi",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.psi"
+    },
+    "macke": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.macke"
+    },
+    "akcije": {
+      "displayName": "akcije",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.akcije"
+    },
+    "naslovniSlajdovi": {
+      "displayName": "hero",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.hero"
+    }
+  }
+}

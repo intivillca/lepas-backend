@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "udomi_mackus",
+  "info": {
+    "singularName": "udomi-macku",
+    "pluralName": "udomi-mackus",
+    "displayName": "UdomiMacku",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "zaglavlje": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.zaglavlje-stranice"
+    }
+  }
+}

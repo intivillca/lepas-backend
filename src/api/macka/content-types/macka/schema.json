@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "macke",
+  "info": {
+    "singularName": "macka",
+    "pluralName": "macke",
+    "displayName": "Mačka",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ime": {
+      "type": "string"
+    },
+    "slika": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "opis": {
+      "type": "richtext"
+    },
+    "kratkiopis": {
+      "type": "string",
+      "maxLength": 250
+    },
+    "slug": {
+      "type": "string",
+      "unique": true,
+      "default": "/macka"
+    }
+  }
+}

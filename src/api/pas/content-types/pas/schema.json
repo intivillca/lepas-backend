@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "psi",
+  "info": {
+    "singularName": "pas",
+    "pluralName": "psi",
+    "displayName": "Pas",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ime": {
+      "type": "string"
+    },
+    "slika": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "opis": {
+      "type": "richtext"
+    },
+    "kratkiopis": {
+      "type": "string",
+      "maxLength": 250
+    },
+    "kategorija": {
+      "type": "enumeration",
+      "enum": [
+        "Štenci",
+        "Odrasli psi",
+        "Muški psi",
+        "Ženski psi"
+      ]
+    },
+    "slug": {
+      "type": "string",
+      "unique": true,
+      "default": "/pas"
+    }
+  }
+}

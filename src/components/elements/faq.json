@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elements_faqs",
+  "info": {
+    "displayName": "FAQ",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "pitanje": {
+      "type": "string"
+    },
+    "odgovor": {
+      "type": "text"
+    }
+  }
+}

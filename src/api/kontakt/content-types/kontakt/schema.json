@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "kontakts",
+  "info": {
+    "singularName": "kontakt",
+    "pluralName": "kontakts",
+    "displayName": "kontakt",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "zaglavlje": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.zaglavlje-stranice"
+    }
+  }
+}

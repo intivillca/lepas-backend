@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "happy_ever_afters",
+  "info": {
+    "singularName": "happy-ever-after",
+    "pluralName": "happy-ever-afters",
+    "displayName": "HappyEverAfter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "naslov": {
+      "type": "string"
+    },
+    "slika": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "clanak": {
+      "type": "richtext"
+    },
+    "kratkiSadrzaj": {
+      "type": "string"
+    },
+    "autor": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

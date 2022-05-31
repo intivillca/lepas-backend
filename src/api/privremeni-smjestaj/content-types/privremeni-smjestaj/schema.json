@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "privremeni_smjestajs",
+  "info": {
+    "singularName": "privremeni-smjestaj",
+    "pluralName": "privremeni-smjestajs",
+    "displayName": "Privremeni Smještaj"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "clanak": {
+      "type": "richtext"
+    },
+    "slika": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
