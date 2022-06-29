@@ -34,6 +34,11 @@
       "type": "string",
       "unique": true,
       "default": "/macka"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.seo"
     }
   }
 }

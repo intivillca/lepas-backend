@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_global_seos",
+  "info": {
+    "displayName": "seo",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "keywords": {
+      "displayName": "keywords",
+      "type": "component",
+      "repeatable": true,
+      "component": "global.keywords"
+    }
+  }
+}

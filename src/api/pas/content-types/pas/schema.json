@@ -43,6 +43,11 @@
       "type": "string",
       "unique": true,
       "default": "/pas"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.seo"
     }
   }
 }

@@ -56,6 +56,11 @@
       "type": "component",
       "repeatable": false,
       "component": "elements.zaglavlje-sekcije"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.seo"
     }
   }
 }

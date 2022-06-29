@@ -16,6 +16,11 @@
       "type": "component",
       "repeatable": false,
       "component": "elements.zaglavlje-stranice"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.seo"
     }
   }
 }

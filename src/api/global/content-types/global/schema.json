@@ -30,6 +30,17 @@
       "type": "component",
       "repeatable": true,
       "component": "global.socialmedia"
+    },
+    "Patterns": {
+      "displayName": "patterns",
+      "type": "component",
+      "repeatable": true,
+      "component": "global.patterns"
+    },
+    "defaultseo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.seo"
     }
   }
 }

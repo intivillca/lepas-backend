@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_global_keywords",
+  "info": {
+    "displayName": "keywords",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "keyword": {
+      "type": "string"
+    }
+  }
+}
