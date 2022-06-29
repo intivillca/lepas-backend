@@ -41,6 +41,13 @@
       "type": "component",
       "repeatable": false,
       "component": "global.seo"
+    },
+    "favicon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
